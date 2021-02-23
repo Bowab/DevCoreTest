@@ -1,0 +1,75 @@
+.main-wrapper {
+    // border: 1px solid red;
+    width: 70%;
+    margin: 0 auto;
+}
+.logo-container {
+    height: 100px;
+    width: 200px;
+    background-image: url("../../src/images/devcore-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // border:1px solid blue;
+}
+
+.main-content {
+    color: $main-text-color;
+    font-weight: 900;
+    font-size: 25px;
+
+    p {
+        font-size: 16px;
+    }
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    // grid-auto-columns: minmax(400px, auto);
+    // grid-template-rows: auto;
+    column-gap: 60px;
+    row-gap: 60px;
+    justify-content: center;
+    padding-bottom: 100px;
+    div {
+        height: 350px;
+        width: 100%;
+        background-blend-mode: overlay;
+    }
+}
+.main-grid :nth-child(1) {
+    background: url("../../src/images/dog1.jpeg"), linear-gradient(rgba(216, 5, 5, 0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-grid :nth-child(2) {
+    background-image: url("../../src/images/dog2.jpeg"), linear-gradient(rgba(217, 94, 228, 0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-grid :nth-child(3) {
+    background-image: url("../../src/images/dog3.jpeg"), linear-gradient(rgba(5, 216, 181, 0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-grid :nth-child(4) {
+    background-image: url("../../src/images/dog4.jpeg"), linear-gradient(rgba(30, 216, 5, 0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-grid :nth-child(5) {
+    background-image: url("../../src/images/dog5.jpeg"), linear-gradient(rgba(5, 19, 216, 0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-grid :nth-child(6) {
+    background-image: url("../../src/images/dog6.jpeg"), linear-gradient(rgba(73, 177, 41, 0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

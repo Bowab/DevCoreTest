@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../src/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+html, body {
+  height: 100%;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.m-t-1 {
+  margin-top: 10px;
+}
+.m-t-2 {
+  margin-top: 20px;
+}
+.m-t-3 {
+  margin-top: 30px;
+}
+.m-t-4 {
+  margin-top: 40px;
+}
+.m-t-5 {
+  margin-top: 50px;
+}
+
+.main-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  height: 100px;
+  width: 200px;
+  background-image: url("../../src/images/devcore-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-content {
+  color: #464646;
+  font-weight: 900;
+  font-size: 25px;
+}
+.main-content p {
+  font-size: 16px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 60px;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  grid-row-gap: 60px;
+  row-gap: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 100px;
+}
+.main-grid div {
+  height: 350px;
+  width: 100%;
+  background-blend-mode: overlay;
+}
+
+.main-grid :nth-child(1) {
+  background: url("../../src/images/dog1.jpeg"), -webkit-gradient(linear, left top, left bottom, from(rgba(216, 5, 5, 0.4)));
+  background: url("../../src/images/dog1.jpeg"), linear-gradient(rgba(216, 5, 5, 0.4));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-grid :nth-child(2) {
+  background-image: url("../../src/images/dog2.jpeg"), -webkit-gradient(linear, left top, left bottom, from(rgba(217, 94, 228, 0.4)));
+  background-image: url("../../src/images/dog2.jpeg"), linear-gradient(rgba(217, 94, 228, 0.4));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-grid :nth-child(3) {
+  background-image: url("../../src/images/dog3.jpeg"), -webkit-gradient(linear, left top, left bottom, from(rgba(5, 216, 181, 0.4)));
+  background-image: url("../../src/images/dog3.jpeg"), linear-gradient(rgba(5, 216, 181, 0.4));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-grid :nth-child(4) {
+  background-image: url("../../src/images/dog4.jpeg"), -webkit-gradient(linear, left top, left bottom, from(rgba(30, 216, 5, 0.4)));
+  background-image: url("../../src/images/dog4.jpeg"), linear-gradient(rgba(30, 216, 5, 0.4));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-grid :nth-child(5) {
+  background-image: url("../../src/images/dog5.jpeg"), -webkit-gradient(linear, left top, left bottom, from(rgba(5, 19, 216, 0.4)));
+  background-image: url("../../src/images/dog5.jpeg"), linear-gradient(rgba(5, 19, 216, 0.4));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-grid :nth-child(6) {
+  background-image: url("../../src/images/dog6.jpeg"), -webkit-gradient(linear, left top, left bottom, from(rgba(73, 177, 41, 0.4)));
+  background-image: url("../../src/images/dog6.jpeg"), linear-gradient(rgba(73, 177, 41, 0.4));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header-space {
+  width: 100%;
+  height: 100px;
+}

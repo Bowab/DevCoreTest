@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../../src/fonts/OpenSans-Regular.ttf") format('truetype');
+}
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+
+h1, h2,p {
+    margin: 0;
+}
+
+
+@import 'import';
